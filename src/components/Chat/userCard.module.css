@@ -1,0 +1,38 @@
+.userCard {
+  color: rgb(35, 34, 34);
+  position: relative;
+  border-bottom: 1px solid rgb(100, 100, 100);
+  max-width: 380px;
+}
+
+/* .userCard .textContent {
+	width: 170px;
+} */
+
+.userCard .name {
+  font-weight: 700;
+}
+
+.userCard .text,
+.userCard .date {
+  font-size: 14px;
+  color: rgb(180, 180, 180);
+}
+
+.thisUserNotifications {
+  display: flex;
+  background: #00bd9b;
+  height: 20px;
+  width: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 850px) {
+  .userCard {
+    max-width: none;
+  }
+}

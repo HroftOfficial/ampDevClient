@@ -1,0 +1,99 @@
+.wrapper {
+	background-color: #f6f6f6;
+	/* width: 27%; */
+	padding: 76px 32px 42px;
+	display: flex;
+	justify-content: flex-end;
+	/* font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400; */
+}
+
+.navigation a.active {
+	background-color: #f6f6f6;
+	color: #00aeae;
+	border: 5px ridge #00aeae;
+}
+
+/* .navigation a.active::after {
+	background: #00aeae;
+} */
+
+.infoWrapper {
+	display: flex;
+	flex-direction: column;
+	color: black;
+	margin-left: auto;
+	align-items: center;
+}
+
+.imgWrapper {
+	display: flex;
+	width: 270px;
+	height: 270px;
+	justify-content: center;
+	align-items: center;
+}
+
+.imgWrapper img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+.fio {
+	margin-top: 45px;
+	max-width: 400px;
+	font-weight: 500;
+	font-size: 24px;
+	text-align: center;
+	color: #00aeae;
+}
+
+.company {
+	max-width: 400px;
+	margin-top: 15px;
+	font-weight: 500;
+	font-size: 24px;
+	text-align: center;
+	color: #333333;
+}
+
+.city {
+	margin-top: 9px;
+	font-size: 18px;
+	text-align: center;
+	color: #333333;
+}
+
+.inn {
+	margin-top: 9px;
+	font-size: 18px;
+	text-align: center;
+	color: #333333;
+}
+
+.infoButton {
+	display: flex;
+	width: 340px;
+	height: 67px;
+	align-items: center;
+	justify-content: center;
+	background: #00aeae;
+	border-radius: 5px;
+	margin-top: 20px;
+	font-size: 24px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.action {
+	display: flex;
+	width: 320px;
+	justify-content: flex-end;
+	margin-top: 95px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #bfbfbf;
+}

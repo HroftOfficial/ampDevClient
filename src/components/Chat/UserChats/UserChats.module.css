@@ -1,0 +1,19 @@
+.chatUsers {
+    border: 1px solid #00aeae;
+    border-radius: 8px;
+    overflow: auto;
+    width: 350px;
+}
+
+@media (max-width: 1200px) {
+    .chatUsers {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .chatUsers {
+        max-height: 300px;
+        width: auto;
+    }
+}

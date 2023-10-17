@@ -1,0 +1,44 @@
+.m__background {
+  /* background: rgb(18,207,246);
+background: radial-gradient(circle, rgba(18,207,246,1) 0%, rgba(109,213,151,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.3393732492997199) 100%); */
+
+    background: 
+    linear-gradient(170deg,
+    rgba(18,207,246,1) 0%, 
+    rgba(109,213,151,0) 0%, 
+    rgba(0,0,0,0.34) 0%, 
+    rgba(0,0,0,0.85) 90%),
+      
+    
+    
+    url('./img/background-head.jpg');
+      /* url('/img/background-head.jpg'); */
+      background-size: cover;
+  }
+
+  .m__background2 {
+    background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('./img/backgroundTpp2.jpg');
+      background-size: cover;
+  }
+
+.h__background {
+    background: rgba(0, 0, 0, 0.4)
+  }
+
+.bg__form {
+background: linear-gradient(160deg,
+rgba(255, 255, 255, 70%),
+rgba(255, 255, 255, 80%)),
+/* url('./img/background-form.png'); */
+}
+.bg__map { 
+  background-image: url('./img/map.svg');
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: 1124px 830px;
+}

@@ -1,0 +1,74 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 277px;
+	background: #f6f6f6;
+	border-radius: 14px;
+	cursor: pointer;
+	padding: 33px 37px;
+	z-index: 5;
+
+	color: #333333;
+	/* font-family: 'Roboto', sans-serif; */
+	/* font-style: normal; */
+	/* font-weight: 400; */
+}
+
+.wrapper:hover {
+	border: 1px solid #00aeae;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 24px;
+	color: #00aeae;
+}
+
+.price {
+	margin-top: 9px;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.city {
+	margin-top: 24px;
+	font-size: 15px;
+	color: #7c7c7c;
+}
+
+.status {
+	margin-top: auto;
+	font-size: 18px;
+}
+
+.buttons {
+	display: flex;
+}
+
+.good {
+	color: #00aeae;
+	text-decoration: underline;
+}
+
+.waiting {
+	color: #fdb97c;
+}
+
+.deleted {
+	color: #e56877;
+}
+
+.wooops {
+	color: #9827cc;
+}
+
+.cardIco {
+	height: 25px;
+	width: 25px;
+	margin-left: 15px;
+}

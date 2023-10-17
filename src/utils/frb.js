@@ -1,0 +1,54 @@
+export const frb = [
+    {
+        id:1,
+        name:'Все',
+        value:'101',
+        icon:'/img/icon/1.svg'
+    },
+    {
+        id:2,
+        name:'Мех. обработка',
+        value:'109',
+        icon:'/img/icon/9.svg'
+    },
+    {
+        id:3,
+        name:'Литьё',
+        value:'103',
+        icon:'/img/icon/3.svg'
+    },
+    {
+        id:4,
+        name:'Пресс',
+        value:'104',
+        icon:'/img/icon/4.svg'
+    },
+    {
+        id:5,
+        name:'Резка',
+        value:'105',
+        icon:'/img/icon/5.svg'
+    },
+    {
+        id:6,
+        name:'Гибка',
+        value:'106',
+        icon:'/img/icon/6.svg'
+    },
+    {
+        id:7,
+        name:'Сварка',
+        value:'107',
+        icon:'/img/icon/7.svg'
+    },{
+        id:9,
+        name:'Терм. обработка',
+        value:'102',
+        icon:'/img/icon/2.svg'
+    },{
+        id:8,
+        name:'Прочее',
+        value:'108',
+        icon:'/img/icon/8.svg'
+    },
+]

@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	min-height: 100vh;
+}
+
+.outlet {
+	width: 100%;
+	max-width: 1400px;
+}
+.loader {
+	display: flex;
+	min-height: 100vh;
+}
+
+@media (max-width: 1000px) {
+	.wrapper {
+		flex-direction: column;
+	}
+}

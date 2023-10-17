@@ -1,0 +1,23 @@
+.title {
+	text-align: center;
+}
+
+.regexList {
+	list-style: none;
+}
+
+.regexList li {
+	margin-top: 2px;
+}
+
+.regexItem::before {
+	content: '❌';
+	color: red;
+	margin-right: 5px;
+}
+
+.regexCheckItem::before {
+	content: '✔️';
+	color: green;
+	margin-right: 5px;
+}

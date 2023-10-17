@@ -1,0 +1,23 @@
+.filesUpload {
+	position: relative;
+	color: #4b525c;
+	/* padding: 5px; */
+	/* margin-left: 2px; */
+	/* border: 2px solid #4b525c; */
+	/* border-radius: 50%; */
+}
+
+.filesUpload > input {
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.dialogActions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.warningFile {
+	color: red;
+}

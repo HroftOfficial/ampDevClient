@@ -1,0 +1,134 @@
+.chatBox {
+	/* max-height: calc(100vh - 10rem); */
+	/* overflow-y: auto; */
+	/* background: rgb(25, 25, 25); */
+	/* border-radius: 10px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+/* .messagesBox {
+	height: 85vh;
+} */
+
+.chatHeader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 45px;
+	padding: 0.75rem;
+	color: rgb(255, 255, 255);
+	border-radius: 8px;
+	background: #4b525c;
+}
+
+/* Messages */
+.messages {
+	/* max-height: calc(100vh - 20rem); */
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	/* overflow: hidden; */
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.message {
+	color: white;
+	background: #282828;
+	flex-grow: 1;
+	padding: 0.75rem;
+	border-radius: 5px;
+	max-width: 50%;
+}
+
+.messageSelf {
+	color: white;
+	background: #00bd9b;
+}
+
+.messageInput {
+	display: flex;
+	align-items: center;
+	/* width: 100%; */
+	font-size: 12px;
+	/* align-self: flex-end; */
+	padding: 1px;
+	font-weight: 400;
+}
+.dropZone {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #00aeae;
+	width: 100%;
+	height: 100%;
+	outline: 2px dashed #4b525c;
+	outline-offset: -10px;
+}
+
+.dropZone p {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.message1 {
+	/* "message self align-self-end flex-grow-0" */
+	/* color: white;
+    background: #282828; */
+	padding: 0.75rem;
+	border-radius: 5px;
+	max-width: 50%;
+	align-items: self-end;
+	flex-grow: 0;
+}
+
+.message2 {
+	/* "message self align-self-end flex-grow-0" */
+	/* color: white;
+    background: #282828; */
+	padding: 0.75rem;
+	border-radius: 5px;
+	max-width: 50%;
+	align-items: self-start;
+	flex-grow: 0;
+}
+
+.massagesWrapper {
+	display: flex;
+	flex-direction: column;
+	height: calc(100% - 45px);
+}
+
+.filesUpload {
+	position: relative;
+	max-width: 40px;
+	left: 5px;
+	color: #4b525c;
+	padding: 5px;
+	margin-left: 2px;
+	border: 2px solid #4b525c;
+	border-radius: 50%;
+}
+
+.filesUpload > input {
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.skeletonMessage {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.skeletonMessage :first-child {
+	flex-direction: row-reverse;
+	height: 40%;
+}

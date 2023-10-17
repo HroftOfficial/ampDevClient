@@ -1,0 +1,142 @@
+.body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img//draft-background.jpg);
+    background-size: 100%;
+    min-height: calc(100vh - 278.5px - 274px);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 72%,
+        rgba(255, 255, 255, 0.8155637254901961) 100%,
+        rgba(255, 255, 255, 0.8) 100%
+    );
+    min-height: calc(100vh - 278.5px - 274px);
+}
+
+.main {
+    margin: 0 auto;
+    padding: 0 26px;
+    min-height: 1800px;
+    width: 100%;
+    max-width: 1492px;
+    /* font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #333333; */
+}
+
+.filterBurger {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.filterImg {
+    width: 30px;
+    margin-left: auto;
+}
+
+.sideBarDraftMobile {
+    margin-bottom: 10px;
+}
+
+.burgerIco {
+    width: 30px;
+    margin-left: auto;
+}
+
+.categoryWrapper {
+    display: none;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.category {
+    width: 100%;
+}
+
+.categoryName {
+    color: black;
+}
+
+.filterWrapper {
+    display: flex;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1440px;
+    width: 100%;
+    box-sizing: content-box;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.categoryWrapperLeft {
+    height: 440px;
+    margin-right: 20px;
+    width: 20%;
+}
+
+.draftList {
+    width: 80%;
+}
+
+.notFound {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #808080;
+}
+
+.emptyBlock {
+    height: 525px;
+}
+
+@media (max-width: 1200px) {
+    .categoryWrapperLeft {
+        width: 33%;
+    }
+}
+
+@media (max-width: 710px) {
+    .categoryWrapper {
+        display: flex;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+    .categoryWrapperLeft {
+        display: none;
+    }
+}
+
+@media (max-width: 639px) {
+    .emptyBlock {
+        height: 225px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 0 16px;
+    }
+    .draftList {
+        width: auto;
+    }
+}

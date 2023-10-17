@@ -1,0 +1,253 @@
+.body {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../../../img/draft-background.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: calc(100vh - 278.5px - 274px);
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	min-height: calc(100vh - 278.5px - 274px);
+	background: radial-gradient(
+		circle,
+		rgba(255, 255, 255, 1) 70%,
+		rgba(255, 255, 255, 0.9472163865546218) 80%,
+		rgba(255, 255, 255, 0.9220063025210083) 90%,
+		rgba(255, 255, 255, 0.7259278711484594) 100%
+	);
+}
+
+.content {
+	display: flex;
+	color: #333333;
+	justify-content: space-between;
+	padding: 0 17px;
+	/* font-family: 'Roboto', sans-serif; */
+	/* font-weight: 400; */
+	/* width: 100%; */
+}
+
+.wrapperContent {
+	width: 100%;
+	max-width: 1474px;
+	margin: 30px auto;
+}
+
+.image {
+	max-width: 900px;
+	min-height: 700px;
+	width: 100%;
+	text-align: -webkit-center;
+
+	/* @media screen and (max-width: 1400px) {
+		width: 700px;
+	}
+
+	@media screen and (max-width: 1200px) {
+		height: auto;
+	}
+
+	@media screen and (max-width: 770px) {
+		width: 500px;
+		margin-bottom: 30px;
+	}
+
+	@media screen and (max-width: 570px) {
+		width: 400px;
+	}
+
+	@media screen and (max-width: 430px) {
+		width: 300px;
+	} */
+}
+
+.slider {
+	padding: 0;
+}
+
+.ampBtn {
+	background: #00aeae;
+	border-radius: 5px;
+	max-width: 220px;
+	padding: 10px 25px;
+	margin-top: 50px;
+	color: #ffffff;
+	margin-left: 30px;
+
+	/* @media screen and (max-width: 480px) {
+		margin: 50px auto 0;
+		font-size: 20px;
+	} */
+}
+
+.buttonBack {
+	background: #00aeae;
+	border-radius: 5px;
+	max-width: 220px;
+	padding: 10px 25px;
+	color: #ffffff;
+	margin: 0 0 30px 17px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	width: 100%;
+	margin-left: 10px;
+
+	/* @media screen and (max-width: 570px) {
+		width: 100%;
+	} */
+}
+
+.infoNumber {
+	display: flex;
+	justify-content: center;
+	padding: 11px 30px;
+	background: #333333;
+	border-radius: 5px;
+	width: 140px;
+	font-weight: 500;
+	font-size: 36px;
+	color: #ffffff;
+
+	/* @media screen and (max-width: 480px) {
+		font-size: 24px;
+		width: 102px;
+		padding: 6px 15px;
+	} */
+}
+
+.infoName {
+	margin-top: 47px;
+	font-weight: 500;
+	font-size: 24px;
+	color: #00aeae;
+
+	/* @media screen and (max-width: 480px) {
+		font-size: 20px;
+		margin-top: 27px;
+	} */
+}
+
+.infoName:first-letter {
+	text-transform: uppercase;
+}
+
+.infoDetails {
+	margin-top: 16px;
+	font-size: 18px;
+	text-align: justify;
+
+	/* @media screen and (max-width: 480px) {
+		font-size: 16px;
+	} */
+}
+
+.infoDetails h3 {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.infoContent {
+	margin-left: 5px;
+}
+
+.infoCategory {
+	margin-top: 16px;
+	font-size: 18px;
+
+	/* @media screen and (max-width: 480px) {
+		font-size: 16px;
+	} */
+}
+
+.infoKl {
+	margin-top: 16px;
+	font-size: 18px;
+
+	/* @media screen and (max-width: 480px) {
+		font-size: 16px;
+	} */
+}
+
+.infoItem {
+	font-size: 18px;
+	/* @media screen and (max-width: 480px) {
+		font-size: 16px;
+	} */
+}
+
+.infoDoc {
+	display: flex;
+	flex-direction: column;
+	margin-top: 37px;
+	font-weight: 500;
+	font-size: 18px;
+
+	/* @media screen and (max-width: 480px) {
+		font-size: 16px;
+	} */
+}
+
+.docItem {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 18px;
+	text-decoration-line: underline;
+	color: #7c7c7c;
+
+	/* @media screen and (max-width: 480px) {
+		font-size: 16px;
+	} */
+}
+
+.imgInfo {
+	margin-right: 10px;
+
+	/* @media screen and (max-width: 480px) {
+		height: 30px;
+	} */
+}
+
+.sliderArea {
+	max-height: 750px;
+	height: 500px;
+}
+
+.addInfo {
+	display: inline;
+	margin: 0;
+	color: #00aeae;
+	border-bottom: 1px solid #00aeae;
+}
+
+@media (max-width: 1200px) {
+	.content {
+		flex-direction: column;
+		align-items: center;
+	}
+	.image {
+		min-height: auto;
+		margin-bottom: 20px;
+	}
+	.sliderArea {
+		height: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.btnBack {
+		display: none;
+	}
+}

@@ -1,0 +1,64 @@
+.body {
+	display: flex;
+}
+
+.contextWrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 69px 37px 52px;
+	width: 100%;
+	max-width: 1328px;
+	box-sizing: content-box;
+}
+
+.contextWrapper h2 {
+	font-weight: 500;
+	font-size: 24px;
+	color: #333333;
+}
+
+.numberOfPlants {
+	margin-bottom: 25px;
+	font-size: 24px;
+	color: #333333;
+}
+
+.plantList {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 16px;
+	width: 100%;
+}
+
+.addCard {
+	display: flex;
+	flex-direction: column;
+	height: 277px;
+	background: #f6f6f6;
+	border-radius: 14px;
+	cursor: pointer;
+	padding: 33px 37px;
+	z-index: 5;
+}
+
+.addCard:hover {
+	border: 1px solid #00aeae;
+}
+
+.addCard img {
+	height: 102px;
+	width: 102px;
+	margin: auto;
+}
+
+@media (max-width: 1200px) {
+	.plantList {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 550px) {
+	.plantList {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+}

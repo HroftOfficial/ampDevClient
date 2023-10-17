@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+  <html lang="ru" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <script>  
+      var link2 = document.createElement('meta');  
+      link2.setAttribute('property', 'twitter:image');  
+      link2.content = `/uploads/${window.location.pathname.split('/').splice(-1, 1)[0]}`;  
+      document.getElementsByTagName('head')[0].appendChild(link2);
+      </script>
+      <script>  
+        var link = document.createElement('meta');  
+        link.setAttribute('property', 'og:image');  
+        link.content = `/uploads/${window.location.pathname.split('/').splice(-1, 1)[0]}`;  
+        document.getElementsByTagName('head')[0].appendChild(link);
+      </script>
+
+
+    <meta property="og:title" content="Ассоциация Металлообрабатывающих Предприятий"/>
+    <meta property="og:description" content="АМП"/>
+    <!-- <meta property="og:image" content={`/uploads/${window.location.pathname.split('/').splice(-1, 1)[0]}`}/> -->
+    <!-- <meta property="og:image" content={`${config?.baseUrlUpload}/uploads/${responseMeta.data.telegram_url[0].filename}`}/>  -->
+
+      <!-- Twitter Meta Tags --> 
+    <!-- <meta name="twitter:card" content="summary_large_image"/> -->
+    <!-- <meta property="twitter:domain" content="amp.copartner.ru"/>  -->
+    <!-- <meta property="twitter:url" content={`${config?.baseUrlUpload}/telegram/${idFromUrl}`}/>  -->
+    <meta name="twitter:title" content="Ассоциация Металлообрабатывающих Предприятий"/>
+    <meta name="twitter:description" content="АМП"/>
+    <!-- <meta name="twitter:image" content={`/uploads/${window.location.pathname.split('/').splice(-1, 1)[0]}`}/> -->
+
+    <!-- <meta content="https://settings3.copartner.ru/uploads/telegram_url-1661712589305.jpg" property="og:image"/> 
+    <meta content="AMP" name="twitter:site"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="https://settings3.copartner.ru/uploads/telegram_url-1661712589305.jpg" name="twitter:image"/> -->
+
+     <!-- Facebook Meta Tags --> 
+    <!-- {/* <meta property="og:url" content="https://amp.copartner.ru/telegram/630613bfb911ce0011971a99"/> */}
+    <meta property="og:url" content={`${config?.baseUrlUpload}/telegram/${idFromUrl}`}/>
+    <meta property="og:title" content="Ассоциация Металлообрабатывающих Предприятий"/>
+    <meta property="og:description" content="АМП"/>
+    <meta property="og:image" content={`${config?.baseUrlUpload}/uploads/${response.data.telegram_url[0].filename}`}/> -->
+
+    <!-- Twitter Meta Tags --> 
+    <!-- <meta name="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:domain" content="amp.copartner.ru"/>
+    <meta property="twitter:url" content={`${config?.baseUrlUpload}/telegram/${idFromUrl}`}/>
+    <meta name="twitter:title" content="Ассоциация Металлообрабатывающих Предприятий"/>
+    <meta name="twitter:description" content="АМП"/>
+    <meta name="twitter:image" content={`${config?.baseUrlUpload}/uploads/${response.data.telegram_url[0].filename}`}/> -->
+   
+    <!-- <script type="text/javascript">   
+      const init = () => {
+        const isTelegram = window.location.pathname.split('/').splice(-2, 1)[0];
+        const idFromUrl = window.location.pathname.split('/').splice(-1, 1)[0];
+
+        fetch(`https://settings3.copartner.ru/api/draft/get_telegram/${idFromUrl}`)
+          .then((resp) => resp.json())
+          .then(function(data) {
+          console.log('Teledata >> ', data)
+
+          let meta1 = document.createElement('meta');
+          meta1.setAttribute('content', `https://settings3.copartner.ru/uploads/${data.telegram_url?.[0]?.filename}`);
+          meta1.setAttribute('property', "og:image");
+
+          let meta2 = document.createElement('meta');
+          meta2.setAttribute('content', "AMP");
+          meta2.setAttribute('name', 'twitter:site');
+
+          let meta3 = document.createElement('meta');
+          meta3.setAttribute('content', "summary_large_image");
+          meta3.setAttribute('name', 'twitter:card');
+
+          let meta4 = document.createElement('meta');
+          meta4.setAttribute('content', `https://settings3.copartner.ru/uploads/${data.telegram_url?.[0]?.filename}`);     
+          meta4.setAttribute('name', 'twitter:image');
+
+          document.getElementsByTagName('head')[0].appendChild(meta1);
+          document.getElementsByTagName('head')[0].appendChild(meta2);
+          document.getElementsByTagName('head')[0].appendChild(meta3);
+          document.getElementsByTagName('head')[0].appendChild(meta4);
+          }
+        )
+        .catch(function(error) {
+          console.log(error);
+        });
+      }
+    init();
+    </script> -->
+
+
+      
+
+
+    <!-- <meta content="" property="og:image"/>  -->
+    <!-- <meta content="AMP" name="twitter:site"/> -->
+    <!-- <meta content="summary_large_image" name="twitter:card"/> -->
+    <!-- <meta content="" name="twitter:image"/>  -->
+    <!-- <meta name="theme-color" content="#000000" /> -->
+    <!-- <meta name="description" content="АМП"/>  -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Ассоциация Металлообрабатывающих Предприятий </title>
+
+<!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(89750169, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/89750169" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+  
+    <div id="root"></div>
+  </body>
+</html>

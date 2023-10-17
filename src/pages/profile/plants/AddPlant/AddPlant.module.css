@@ -1,0 +1,180 @@
+.body {
+	display: flex;
+	color: black;
+	/* font-family: 'Roboto', sans-serif; */
+	/* font-style: normal; */
+	/* font-weight: 400; */
+}
+
+.newUser {
+	flex: 4;
+	/* margin-left: 50px; */
+	padding: 69px 37px 52px;
+}
+
+.newUserTitle {
+	font-weight: 500;
+	font-size: 24px;
+	color: #333333;
+}
+
+.newUserForm {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* max-width: 650px; */
+}
+
+.newUserFormItem {
+	display: flex;
+	flex-wrap: wrap;
+}
+.newUserItem {
+	max-width: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.newUserItem > label {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(151, 150, 150);
+}
+
+.newUserItem > input {
+	height: 20px;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.newUserGender > input {
+	margin-top: 15px;
+}
+
+.newUserGender > label {
+	margin: 10px;
+	font-size: 18px;
+	color: #555;
+}
+
+.newUserSelect {
+	height: 40px;
+	border-radius: 5px;
+}
+
+.newUserButton {
+	width: 200px;
+	border: none;
+	background-color: #00aeae;
+	color: white;
+	padding: 17px 10px;
+	font-weight: 600;
+	border-radius: 10px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.imageButton {
+	width: 200px;
+	border: none;
+	background-color: darkblue;
+	color: white;
+	padding: 17px 10px;
+	font-weight: 600;
+	border-radius: 10px;
+	/* margin-top: 30px; */
+	cursor: pointer;
+}
+
+.newUserErrorMessage {
+	color: coral;
+	padding-top: 20px;
+	font-weight: 600;
+}
+
+.oweners {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-left: 20px;
+	max-width: 90%;
+}
+
+.search {
+	margin-top: 20px;
+}
+
+.ownWrapper {
+	display: block;
+	max-height: 500px;
+	overflow: scroll;
+}
+
+.ownName {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.ownList {
+	column-width: 200px;
+	column-count: 2;
+	margin-top: 20px;
+	max-width: 100%;
+	min-height: 500px;
+}
+
+.ownListInput {
+	margin-top: 10px;
+}
+
+.ownListLable {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.fileBlock {
+	width: 80%;
+	padding: 10px 0;
+}
+
+.fileBlock > label {
+	font-size: 2rem;
+	color: #00aeae;
+	font-weight: 600;
+}
+
+.plantInfoWrapper {
+	width: 80%;
+}
+
+.plantInfo {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.plantInfo > textarea {
+	padding: 20px;
+	font-size: 18px;
+	color: black;
+	border: 2px solid #bfbfbf;
+	border-radius: 5px;
+	width: 100%;
+	height: 200px;
+	resize: none;
+	outline: none;
+}
+
+@media (max-width: 576px) {
+	.plantInfoWrapper {
+		width: 100%;
+	}
+	.fileBlock {
+		width: 90%;
+	}
+}

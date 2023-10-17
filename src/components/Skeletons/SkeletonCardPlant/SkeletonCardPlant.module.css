@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 440px;
+    max-width: 368px;
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 7px 4px rgba(34, 60, 80, 0.2);
+    border-radius: 4px;
+}
